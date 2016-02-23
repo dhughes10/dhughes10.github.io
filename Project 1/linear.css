@@ -1,0 +1,143 @@
+body {
+	overflow: hidden;
+
+}
+.container {
+	display: inline-block;
+	width: 4000px;
+	height: auto;
+    padding: 10px;
+    top-margin: 10px;
+    left-margin: 10px;
+    right-margin: 10px;
+    right: 10px;
+}
+
+.letters {
+	display: inline-block;
+	word-spacing:8em;
+	text-transform: uppercase;
+	font-family: Avenir Next Condensed;
+	text-align: justify;
+	text-shadow: 0px 0px .05px black;
+	font-size: 25px;
+	letter-spacing: 8px;
+	margin-right: 10px;
+}
+
+#draggable {
+	width: auto;
+	height: auto;
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#draggable:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.aword {
+	display: inline;
+}
+
+.aword:hover {
+	color: white;
+	text-shadow: 0px 0px 4px white;
+	background-color: black;
+	box-shadow: 0px 0px .5px black;
+}
+
+.popup {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	background: white;
+	word-spacing:0em;
+	text-align: justify;
+	font-size: 16px;
+	font-family: helvetica;
+	line-height: 23.2px;
+	text-shadow: 0px 0px .01px black;
+	letter-spacing: 2px;
+	text-transform: none;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	box-shadow: inset 0px 0px 1.2px black, 0px 0px .07px black;
+	padding: 25px;
+	display: none;
+
+}
+.sales {
+	bottom: 180px;
+	left: 1595px;
+
+}
+.consumer {
+	bottom: 1870px;
+	left: 2260px;
+
+}
+.steam {
+	bottom: 1875px;
+	left: 6020px;
+
+}
+.developers {
+	bottom: 1750px;
+	left: 1095px;
+
+}
+.awards {
+	bottom: 1150px;
+	left: 2095px;
+
+}
+.release {
+	bottom: 1380px;
+	left: 4995px;
+
+}
+.fans {
+	bottom: 1080px;
+	left: 625px;
+
+}
+.studio {
+	bottom: 550px;
+	left: 3375px;
+
+}
+.vault {
+	bottom: 760px;
+	left: 5550px;
+
+}
+.rated {
+	bottom: 240px;
+	left: 3000px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

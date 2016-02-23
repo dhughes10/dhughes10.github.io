@@ -1,0 +1,272 @@
+body {
+	overflow: hidden;
+}
+
+#draggable {
+	width: 3000px;
+	height: 3000;
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#draggable:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.container {
+	display: absolute;
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 2700px;
+	height: 2300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.square {
+	position: absolute;
+	display: inline-block;
+	background: white;
+	margin: 15px;
+	width: 25px;
+	height: 25px;
+	border: solid;
+	border-width: 12px;
+	border-color: black;}
+
+.one {
+	left: 100px;
+	top: 880px;
+}
+.two {
+	left: 300px;
+	top: 300px;
+}
+.three {
+	left: 1100px;
+	top: 800px;
+}
+.four {
+	left: 520px;
+	top: 1235px;
+}
+.five {
+	left: 1850px;
+	top: 172px;
+}
+.six {
+	left: 1250px;
+	top: 200px;
+}
+.seven {
+	left: 2100px;
+	top: 1280px;
+}
+.eight {
+	left: 1530px;
+	top: 650px;
+}
+.nine {
+	left: 1200px;
+	top: 1480px;
+}
+
+.text {
+	position: absolute;
+	display: none;
+	width: auto;
+	height: auto;
+	background: white;
+	text-align: justify;
+	font-size: 25px;
+	letter-spacing: 6px;
+	font-family: Avenir Next Condensed;
+	text-shadow: 0px 0px .01px black;
+	text-transform: uppercase;
+	border: solid;
+	border-width: 8px;
+	border-color: black;
+	padding: 30px;
+	top: 6px;
+	left: 7px;
+}
+
+/*slected words from option*/
+
+.word-selection {
+	display: none;
+	width: 1300px;
+	height: auto;
+	position: absolute;
+	font-size: 68px;
+	font-family: helvetica;
+	font-weight: thin;
+	text-shadow: 0px 0px .07px black;
+	text-transform: none;
+
+}
+
+.steam-text {
+	top: 200px;
+	left: -80px;
+	z-index: -10;
+}
+
+.vault-text {
+	width: 2900px;
+	top: -220px;
+	left: -1220px;
+	z-index: -5;
+}
+
+.sales-text {
+	font-size: 55px;
+	width: 870px;
+	top: -400px;
+	left: -1060px;
+	z-index: -2;
+}
+
+.rated-text {
+	font-size: 55px;
+	text-align: none;
+	width: 495px;
+	top: -100px;
+	left: 280px;
+	text-align: left;
+}
+
+/*--end--*/
+
+.word {
+	display: inline;
+}
+
+.word:hover {
+	color: white;
+	background-color: black;
+}
+
+/*--missing words--*/
+
+.blanks {
+	position: absolute;
+	display: none;
+	background: white;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	text-shadow: 0px 0px .01px black;
+	text-align: justify;
+	border: solid;
+	border-width: 8px;
+	border-color: black;
+	padding: 30px;
+	top: 6px;
+	left: 7px;
+	width: 600px;
+	height: auto;
+}
+
+.missing {
+	color: white;
+	text-shadow: none;
+}
+.missing:hover {
+	background: black;
+}
+
+.first {
+	width: 750px;
+}
+/*--end--*/
+
+/*--encripted section popups--*/
+
+.popup {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	background: white;
+	text-align: justify;
+	font-size: 16px;
+	font-family: helvetica;
+	line-height: 22.8px;
+	letter-spacing: 2px;
+	text-transform: none;
+	text-shadow: 0px 0px .01px black;
+	border: solid;
+	border-width: 8px;
+	border-color: black;
+	padding: 25px;
+	display: none;
+}
+
+.fans {
+	top: 400px;
+	left: 40px;
+}
+
+.fans2 {
+	width: 600px;
+	top: 1450px;
+	left: 1800px;
+}
+
+.rated {
+	top: 560px;
+	left: 910px;
+}
+
+.consumer {
+	top: 1460px;
+	left: 380px;
+}
+
+.consumer2 {
+	width: 1550px;
+	top: 760px;
+	left: 1310px;
+}
+
+.vault {
+	top: 1110px;
+	left: 680px;
+}
+
+.studio {
+	top: 1010px;
+	left: 1380px;
+}
+
+.release {
+	top: 600px;
+	left: 2000px;
+}
+
+.awards {
+	top: 340px;
+	left: 1390px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
